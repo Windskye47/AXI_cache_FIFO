@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI4Lite_singleRW_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI4Lite_singleRW_tb" />
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="glbl" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="362.000001 us"></ZoomEndTime>
+      <Cursor1Time time="52.007000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="338"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/error_flag" type="logic">
+      <obj_property name="ElementShortName">error_flag</obj_property>
+      <obj_property name="ObjectShortName">error_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/write_resp_error" type="logic">
+      <obj_property name="ElementShortName">write_resp_error</obj_property>
+      <obj_property name="ObjectShortName">write_resp_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/read_resp_error" type="logic">
+      <obj_property name="ElementShortName">read_resp_error</obj_property>
+      <obj_property name="ObjectShortName">read_resp_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/rdata_notequal_wdata_error" type="logic">
+      <obj_property name="ElementShortName">rdata_notequal_wdata_error</obj_property>
+      <obj_property name="ObjectShortName">rdata_notequal_wdata_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/fwft_fifo_read_dout" type="array">
+      <obj_property name="ElementShortName">fwft_fifo_read_dout[44:0]</obj_property>
+      <obj_property name="ObjectShortName">fwft_fifo_read_dout[44:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/fwft_fifo_read_rd_en" type="logic">
+      <obj_property name="ElementShortName">fwft_fifo_read_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fwft_fifo_read_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">m_axi_awaddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_awprot" type="array">
+      <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_awready" type="logic">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_wdata" type="array">
+      <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_wready" type="logic">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_bresp" type="array">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_bready" type="logic">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_araddr" type="array">
+      <obj_property name="ElementShortName">m_axi_araddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_arprot" type="array">
+      <obj_property name="ElementShortName">m_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_arready" type="logic">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_rdata" type="array">
+      <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_rresp" type="array">
+      <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_rready" type="logic">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">m_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">m_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/m_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">m_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">m_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/rnext" type="logic">
+      <obj_property name="ElementShortName">rnext</obj_property>
+      <obj_property name="ObjectShortName">rnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/bnext" type="logic">
+      <obj_property name="ElementShortName">bnext</obj_property>
+      <obj_property name="ObjectShortName">bnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/fwft_fifo_read_empty" type="logic">
+      <obj_property name="ElementShortName">fwft_fifo_read_empty</obj_property>
+      <obj_property name="ObjectShortName">fwft_fifo_read_empty</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/single_burst_wr_finish" type="logic">
+      <obj_property name="ElementShortName">single_burst_wr_finish</obj_property>
+      <obj_property name="ObjectShortName">single_burst_wr_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/burst_write_active" type="logic">
+      <obj_property name="ElementShortName">burst_write_active</obj_property>
+      <obj_property name="ObjectShortName">burst_write_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/start_single_burst_write" type="logic">
+      <obj_property name="ElementShortName">start_single_burst_write</obj_property>
+      <obj_property name="ObjectShortName">start_single_burst_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/awnext" type="logic">
+      <obj_property name="ElementShortName">awnext</obj_property>
+      <obj_property name="ObjectShortName">awnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/wnext" type="logic">
+      <obj_property name="ElementShortName">wnext</obj_property>
+      <obj_property name="ObjectShortName">wnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/start_single_burst_read" type="logic">
+      <obj_property name="ElementShortName">start_single_burst_read</obj_property>
+      <obj_property name="ObjectShortName">start_single_burst_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/burst_read_active" type="logic">
+      <obj_property name="ElementShortName">burst_read_active</obj_property>
+      <obj_property name="ObjectShortName">burst_read_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/arnext" type="logic">
+      <obj_property name="ElementShortName">arnext</obj_property>
+      <obj_property name="ObjectShortName">arnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/AXI4LiteMaster_singl_0/inst/u_AXI4LiteMaster_singleRW_useFIFO/RD_CHECK_EN" type="logic">
+      <obj_property name="ElementShortName">RD_CHECK_EN</obj_property>
+      <obj_property name="ObjectShortName">RD_CHECK_EN</obj_property>
+   </wvobject>
+</wave_config>

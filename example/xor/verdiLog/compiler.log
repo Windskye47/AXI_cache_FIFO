@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi_P-2019.06-SP1-1)
+Command arguments:
+    +define+verilog
+    -f run.f
+        /home/lixianglong/xor/tb.v
+        /home/lixianglong/xor/xor.v
+
+Highest level modules:
+testbench
+
+Total	0 error(s),   0 warning(s)

@@ -1,0 +1,283 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Dec 11 13:56:13 2021
+# Process ID: 16324
+# Current directory: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9416 F:\Onedrive\VivadoPrj\AXI4LiteMaster_singleRW_useFIFO\myAXI4LiteMasterV1.xpr
+# Log file: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/vivado.log
+# Journal file: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO\vivado.jou
+# Running On: Dakang, OS: Windows, CPU Frequency: 3893 MHz, CPU Physical cores: 16, Host memory: 34301 MB
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Xilinx/Vivado/2021.2/scripts/Vivado_init.tcl'
+start_gui
+open_project F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.871 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd}
+Reading block design file <F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd>...
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:AXI4LiteMaster_singleRW_useFIFO_wrapper:1.0 - AXI4LiteMaster_singl_0
+Successfully read diagram <AXI4Lite_singleRW_sys> from block design file <F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd>
+startgroup
+set_property -dict [list CONFIG.RD_CHECK_EN {1}] [get_bd_cells AXI4LiteMaster_singl_0]
+endgroup
+save_bd_design
+Wrote  : <F:\Onedrive\VivadoPrj\AXI4LiteMaster_singleRW_useFIFO\myAXI4LiteMasterV1.srcs\sources_1\bd\AXI4Lite_singleRW_sys\AXI4Lite_singleRW_sys.bd> 
+Wrote  : <F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/ui/bd_35fdd7ca.ui> 
+regenerate_bd_layout
+regenerate_bd_layout -routing
+regenerate_bd_layout
+regenerate_bd_layout -routing
+generate_target Simulation [get_files F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd]
+INFO: [xilinx.com:ip:smartconnect:1.0-1] AXI4Lite_singleRW_sys_smartconnect_0_0: SmartConnect AXI4Lite_singleRW_sys_smartconnect_0_0 is in Low-Area Mode.
+Wrote  : <F:\Onedrive\VivadoPrj\AXI4LiteMaster_singleRW_useFIFO\myAXI4LiteMasterV1.srcs\sources_1\bd\AXI4Lite_singleRW_sys\AXI4Lite_singleRW_sys.bd> 
+Wrote  : <F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/ui/bd_35fdd7ca.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(12) - Only lower order bits will be connected.
+VHDL Output written to : f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/synth/AXI4Lite_singleRW_sys.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(12) - Only lower order bits will be connected.
+VHDL Output written to : f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/sim/AXI4Lite_singleRW_sys.v
+VHDL Output written to : f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/hdl/AXI4Lite_singleRW_sys_wrapper.v
+Exporting to file f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/hw_handoff/AXI4Lite_singleRW_sys_smartconnect_0_0.hwh
+Generated Hardware Definition File f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/synth/AXI4Lite_singleRW_sys_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI4LiteMaster_singl_0 .
+Exporting to file f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/hw_handoff/AXI4Lite_singleRW_sys.hwh
+Generated Hardware Definition File f:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/synth/AXI4Lite_singleRW_sys.hwdef
+generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1763.652 ; gain = 229.938
+export_ip_user_files -of_objects [get_files F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd] -directory F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/sim_scripts -ip_user_files_dir F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files -ipstatic_source_dir F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/Onedrive/Modelsim_Vivado_Lib} {questa=F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.cache/compile_simlib/questa} {riviera=F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.cache/compile_simlib/riviera} {activehdl=F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'AXI4Lite_singleRW_tb'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'AXI4Lite_singleRW_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim/sc_xtlm_AXI4Lite_singleRW_sys_smartconnect_0_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_11 -L smartconnect_v1_0 -L xilinx_vip -prj AXI4Lite_singleRW_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/new/AXI4LiteMaster_singleRW_useFIFO_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4LiteMaster_singleRW_useFIFO_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_fifo_generator_0_0/sim/AXI4Lite_singleRW_sys_fifo_generator_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_fifo_generator_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_blk_mem_gen_0_0/sim/AXI4Lite_singleRW_sys_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_util_vector_logic_0_0/sim/AXI4Lite_singleRW_sys_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/sim/bd_48f7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7
+INFO: [VRFC 10-311] analyzing module clk_map_imp_1W56Y6I
+INFO: [VRFC 10-311] analyzing module m00_exit_pipeline_imp_3O0QXD
+INFO: [VRFC 10-311] analyzing module s00_entry_pipeline_imp_13FL2S2
+INFO: [VRFC 10-311] analyzing module s00_nodes_imp_176RTQG
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_48f7_one_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_one_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_48f7_s00mmu_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_s00mmu_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_48f7_s00tr_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_s00tr_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_48f7_s00sic_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_s00sic_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_48f7_s00a2s_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_s00a2s_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_48f7_sarn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_sarn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_48f7_srn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_srn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_48f7_sawn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_sawn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_48f7_swn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_swn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_48f7_sbn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_sbn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_48f7_m00s2a_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_m00s2a_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_48f7_m00e_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_48f7_m00e_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/sim/AXI4Lite_singleRW_sys_smartconnect_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_smartconnect_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_AXI4LiteMaster_singl_0_1/sim/AXI4Lite_singleRW_sys_AXI4LiteMaster_singl_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_AXI4LiteMaster_singl_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/sim/AXI4Lite_singleRW_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.gen/sources_1/bd/AXI4Lite_singleRW_sys/hdl/AXI4Lite_singleRW_sys_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI4Lite_singleRW_sys_wrapper
+"xvhdl --incr --relax -prj AXI4Lite_singleRW_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_48f7_psr_aclk_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_48f7_psr_aclk_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1780.020 ; gain = 9.383
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 32 -L xil_defaultlib -L fifo_generator_v13_2_6 -L blk_mem_gen_v8_4_5 -L util_vector_logic_v2_0_1 -L axi_bram_ctrl_v4_1_6 -L xlconstant_v1_1_7 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L axi_vip_v1_1_11 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot AXI4Lite_singleRW_tb_behav xil_defaultlib.AXI4Lite_singleRW_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 32 -L xil_defaultlib -L fifo_generator_v13_2_6 -L blk_mem_gen_v8_4_5 -L util_vector_logic_v2_0_1 -L axi_bram_ctrl_v4_1_6 -L xlconstant_v1_1_7 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L axi_vip_v1_1_11 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot AXI4Lite_singleRW_tb_behav xil_defaultlib.AXI4Lite_singleRW_tb xil_defaultlib.glbl -log elaborate.log 
+Using 32 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.ip_user_files/bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/sim/bd_48f7.v:658]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/new/AXI4LiteMaster_singleRW_useFIFO_wrapper.v" Line 12. Module AXI4LiteMaster_singleRW_useFIFO_wrapper(ADDR_WIDTH=13,RD_CHECK_EN=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/new/AXI4LiteMaster_singleRW_useFIFO.sv" Line 25. Module AXI4LiteMaster_singleRW_useFIFO(ADDR_WIDTH=13,RD_CHECK_EN=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/new/AXI4LiteMaster_singleRW_useFIFO_wrapper.v" Line 12. Module AXI4LiteMaster_singleRW_useFIFO_wrapper(ADDR_WIDTH=13,RD_CHECK_EN=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/new/AXI4LiteMaster_singleRW_useFIFO.sv" Line 25. Module AXI4LiteMaster_singleRW_useFIFO(ADDR_WIDTH=13,RD_CHECK_EN=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_6.axi_bram_ctrl_funcs
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package smartconnect_v1_0.sc_util_v1_0_4_pkg
+Compiling module xil_defaultlib.AXI4LiteMaster_singleRW_useFIFO(...
+Compiling module xil_defaultlib.AXI4LiteMaster_singleRW_useFIFO_...
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_AXI4LiteMa...
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_6.axi_lite [\axi_lite(c_s_axi_addr_width=12,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_6.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_6.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=10...]
+Compiling architecture axi4lite_singlerw_sys_axi_bram_ctrl_0_1_arch of entity xil_defaultlib.AXI4Lite_singleRW_sys_axi_bram_ctrl_0_1 [axi4lite_singlerw_sys_axi_bram_c...]
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="kin...
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_blk_mem_ge...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_bhv_ver_s...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_bhv_ver_p...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_CONV_VER(...
+Compiling module fifo_generator_v13_2_6.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_fifo_gener...
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.bd_48f7_one_0
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="kintex...]
+Compiling architecture bd_48f7_psr_aclk_0_arch of entity xil_defaultlib.bd_48f7_psr_aclk_0 [bd_48f7_psr_aclk_0_default]
+Compiling module xil_defaultlib.clk_map_imp_1W56Y6I
+Compiling module xpm.xpm_cdc_async_rst(DEST_SYNC_FF=3...
+Compiling module xil_defaultlib.bd_48f7_m00e_0
+Compiling module xil_defaultlib.m00_exit_pipeline_imp_3O0QXD
+Compiling module xil_defaultlib.bd_48f7_m00s2a_0
+Compiling module xil_defaultlib.bd_48f7_s00a2s_0
+Compiling module xil_defaultlib.bd_48f7_s00mmu_0
+Compiling module xil_defaultlib.bd_48f7_s00sic_0
+Compiling module xil_defaultlib.bd_48f7_s00tr_0
+Compiling module xil_defaultlib.s00_entry_pipeline_imp_13FL2S2
+Compiling module xil_defaultlib.bd_48f7_sarn_0
+Compiling module xil_defaultlib.bd_48f7_sawn_0
+Compiling module xil_defaultlib.bd_48f7_sbn_0
+Compiling module xil_defaultlib.bd_48f7_srn_0
+Compiling module xil_defaultlib.bd_48f7_swn_0
+Compiling module xil_defaultlib.s00_nodes_imp_176RTQG
+Compiling module xil_defaultlib.bd_48f7
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_smartconne...
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_util_vecto...
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys
+Compiling module xil_defaultlib.AXI4Lite_singleRW_sys_wrapper
+Compiling module xil_defaultlib.AXI4Lite_singleRW_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AXI4Lite_singleRW_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1780.020 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AXI4Lite_singleRW_tb_behav -key {Behavioral:sim_1:Functional:AXI4Lite_singleRW_tb} -tclbatch {AXI4Lite_singleRW_tb.tcl} -protoinst "protoinst_files/bd_48f7.protoinst" -protoinst "protoinst_files/AXI4Lite_singleRW_sys.protoinst" -view {F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/AXI4Lite_singleRW_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_48f7.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//m00_exit_pipeline/m00_exit/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//m00_exit_pipeline/m00_exit/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//m00_exit_pipeline/m_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//m00_exit_pipeline/s_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//m00_sc2axi/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_axi2sc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/m_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_mmu/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_mmu/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_si_converter/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_si_converter/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_transaction_regulator/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s00_transaction_regulator/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i/smartconnect_0/inst//s00_entry_pipeline/s_axi
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/AXI4Lite_singleRW_sys.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i//AXI4LiteMaster_singl_0/m_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i//axi_bram_ctrl_0/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i//smartconnect_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /AXI4Lite_singleRW_tb/AXI4Lite_singleRW_sys_wrapper_inst/AXI4Lite_singleRW_sys_i//smartconnect_0/S00_AXI
+Time resolution is 1 ps
+open_wave_config F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/AXI4Lite_singleRW_tb_behav.wcfg
+source AXI4Lite_singleRW_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module AXI4Lite_singleRW_tb.AXI4Lite_singleRW_sys_wrapper_inst.AXI4Lite_singleRW_sys_i.blk_mem_gen_0.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Too many words specified in data file F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sim_1/new/sin.txt
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AXI4Lite_singleRW_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1840.203 ; gain = 76.551
+run all
+$stop called at time : 152067 ns : File "F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sim_1/new/AXI4Lite_singleRW_tb.sv" Line 98
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1852.883 ; gain = 12.680
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 11 14:06:30 2021...

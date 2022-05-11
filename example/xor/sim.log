@@ -1,0 +1,27 @@
+Command: /home/yangsiqi/coding/example/xor/./simv +fsdbfile+top_tb.fsdb -cm line+cond+tgl+fsm -l sim.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Apr 29 18:09 2022
+*Verdi* Loading libsscore_vcs201906.so
+FSDB Dumper for VCS, Release Verdi_P-2019.06-SP1-1, Linux x86_64/64bit, 10/14/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+***********************************************************************
+*  ERROR -                                                            *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior, please contact Synopsys support for   *
+*  assistance.                                                        *
+***********************************************************************
+*Verdi* : Create FSDB file 'top_tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+$finish called from file "/home/lixianglong/xor/tb.v", line 18.
+$finish at simulation time                  253
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 253 ns
+CPU Time:      0.290 seconds;       Data structure size:   0.0Mb
+Fri Apr 29 18:09:39 2022

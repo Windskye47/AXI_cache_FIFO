@@ -1,0 +1,174 @@
+0 
+46
++cli+1
++define+DUMPFSDB
++itf+/opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/vcsdp_lite.tab
++memcbk
++vcsd1
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/eda/snps/vcs/R-2020.12-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libvirsim.so /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/liberrorinf.so /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libsnpsmalloc.so /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libvfs.so /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/eda/snps/vcs/R-2020.12-SP1/include
+-Mxllcflags=
+-P
+-P
+-Xcbug=0x1
+-Xufe=2steps
+-cm
+-debug=1
+-debug_access
+-debug_access+all
+-f run.f
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-lca
+-picarchive
+/opt/eda/snps/vcs/R-2020.12-SP1/linux64/bin/vcs1
+comp.log
+/opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/novas.tab
+line+cond+tgl+fsm
+/opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/verdi.tab
+run.f
+108
+XMODIFIERS=@im=none
+XMODEL_HOME=/home/eda/empyrean/tools/xmodel
+XKEYSYMDB=/opt/eda/cdns/IC618/tools/plot/etc/XKeysymDB
+XDG_SESSION_ID=c7
+XDG_RUNTIME_DIR=/run/user/1008
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/yangsiqi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=5202
+VNCDESKTOP=yangsiqi
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/eda/snps/verdi/P-2019.06-SP1-1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=comp.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/opt/eda/snps/vcs/R-2020.12-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/opt/eda/snps/vcs/R-2020.12-SP1/linux64
+SYNOPSYS=/opt/eda/snps
+STROOT=/opt/eda/snps/sentaurus/O_2018.06-SP2
+SSH_AUTH_SOCK=/run/user/1008/keyring/ssh
+SSH_AGENT_PID=25422
+SPYGLASS_HOME=/opt/eda/snps/spyglass/P-2019.06-SP1-1/SPYGLASS_HOME
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/24256,unix/unix:/tmp/.ICE-unix/24256
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_QPA_PLATFORM_PLUGIN_PATH=/home/eda/glory/EX-2021.11.SP1/tool/lib/lib_qt/plugins
+QT_QPA_FONTDIR=/home/eda/glory/EX-2021.11.SP1/tool/lib/lib_qt/fonts
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=xim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QRC_MOS_LW_PRECISION=Y
+QRC_HOME=/opt/eda/cdns/QUANTUS201
+PHLEXING_LICENSE_FILE=55555@eda12
+PERL_MM_OPT=INSTALL_BASE=/home/yangsiqi/perl5
+PERL_MB_OPT=--install_base /home/yangsiqi/perl5
+PERL_LOCAL_LIB_ROOT=:/home/yangsiqi/perl5
+PERL5LIB=/home/yangsiqi/perl5/lib/perl5:
+OVA_UUM=0
+NOVAS_HOME=/opt/eda/snps/verdi/P-2019.06-SP1-1
+MQA_LICENSE_FILE=27001@eda12
+MMSIMHOME=/opt/eda/cdns/SPECTRE191
+MGLS_LICENSE_FILE=/home/eda/mentor/Calibre2019/lic/mgc_license.dat
+MGC_PDF_READER=evince
+MGC_LIB_PATH=/home/eda/mentor/Calibre2019/aoj_cal_2019.3_15.11/lib
+MGC_HOME=/home/eda/mentor/Calibre2019/aoj_cal_2019.3_15.11
+MGC_CALIBRE_SCHEMATIC_SERVER=eda12:9199
+MGC_CALIBRE_SAVE_ALL_RUNSET_VALUES=1
+MGC_CALIBRE_LAYOUT_SERVER=eda12:9189
+MFLAGS=
+MENTOR_HOME=/home/eda/mentor
+MBP_LICENSE_FILE=27001@eda12
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+K2_VIEWER_HOME=/opt/eda/cdns/PVS191/tools/K2/Viewer
+K2_MC_DATA=/home/yangsiqi/Projects
+K2_MASKCOMPOSE_HOME=/opt/eda/cdns/PVS191/tools/K2/MaskCompose
+K2_HOME=/opt/eda/cdns/PVS191/tools/K2
+IWAVE_HOME=/home/eda/empyrean/tools/iwave
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICCAP_ROOT=/opt/eda/keysight/ICCAP_2020_Update2
+ICCAP_LICENSE_FILE=27001@eda12
+HISTTIMEFORMAT=[%F %T] 
+HISTCONTROL=ignoredups
+HARDWARE_PLATFORM=x86_64
+GTK_IM_MODULE=gtk-im-context-simple
+GNOME_TERMINAL_SERVICE=:1.96
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3e61da7e_febe_465c_9065_4c007075fa8b
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GLORYEX=/home/eda/glory/EX-2021.11.SP1
+EMPYREAN_HOME=/home/eda/empyrean
+DC_HOME=/opt/eda/snps/syn/O-2018.06-SP5-4
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-JZcYzb6v7I,guid=39e65622425624857b7c10c5625a317a
+COLORTERM=truecolor
+CDS_ROOT=/opt/eda/cdns/IC618
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CWD
+CDS_LIC_ONLY=1
+CDS_LIC_FILE=/opt/eda/cdns/lic/ecnu.lic
+CDS_INST_DIR=/opt/eda/cdns/IC618
+CDS_ENABLE_VMS=1
+CDS_AUTO_64BIT=ALL
+CDSROOT=/opt/eda/cdns/IC618
+CDSHOME=/opt/eda/cdns/IC618
+CDSDIR=/opt/eda/cdns/IC618
+CDS=/opt/eda/cdns/IC618
+CALIBRE_HOME=/home/eda/mentor/Calibre2019/aoj_cal_2019.3_15.11
+CADHOME=/opt/eda/cdns
+CADENCE_DIR=/opt/eda/cdns/IC618
+ANSYSLMD_LCENSE_FILE=/opt/eda/AnsysEM/shared_files/licensing/license_files/ansyslmd.lic
+ANSYSLIC_DIR=/opt/eda/AnsysEM/shared_files/licensing
+ALPS_HOME=/home/eda/empyrean/tools/alps
+ALPSCD_HOME=/home/eda/empyrean/tools/alpscd
+ADS_LICENSE_FILE=27001@eda12
+0
+7
+1651217808 /home/lixianglong/xor/xor.v
+1651217808 /home/lixianglong/xor/tb.v
+1614744769 /opt/eda/snps/vcs/R-2020.12-SP1/include/cm_vcsd.tab
+1651219914 run.f
+1571049353 /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/verdi.tab
+1571049353 /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/novas.tab
+1614744659 /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/vcsdp_lite.tab
+5
+1614746267 /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libvirsim.so
+1614745576 /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/liberrorinf.so
+1614745306 /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libsnpsmalloc.so
+1614745567 /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libvfs.so
+1571046297 /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a
+1651226978 simv.daidir
+-1 partitionlib

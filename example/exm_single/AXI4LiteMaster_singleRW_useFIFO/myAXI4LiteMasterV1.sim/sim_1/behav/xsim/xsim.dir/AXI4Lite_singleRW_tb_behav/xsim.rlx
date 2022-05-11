@@ -1,0 +1,12 @@
+
+{ 
+    crc :  9621586776722142235  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 32 -L xil_defaultlib -L fifo_generator_v13_2_6 -L blk_mem_gen_v8_4_5 -L util_vector_logic_v2_0_1 -L axi_bram_ctrl_v4_1_6 -L xlconstant_v1_1_7 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L axi_vip_v1_1_11 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot AXI4Lite_singleRW_tb_behav xil_defaultlib.AXI4Lite_singleRW_tb xil_defaultlib.glbl" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "03:16:22" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2021.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/AXI4Lite_singleRW_tb_behav/xsimk.exe\"   \"xsim.dir/AXI4Lite_singleRW_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/AXI4Lite_singleRW_tb_behav/obj/xsim_1.win64.obj\" \"xsim.dir/AXI4Lite_singleRW_tb_behav/obj/xsim_2.win64.obj\" \"xsim.dir/AXI4Lite_singleRW_tb_behav/obj/xsim_3.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2021.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

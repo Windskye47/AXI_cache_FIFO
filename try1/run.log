@@ -1,0 +1,15 @@
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_all' will be deprecated in a future release.  Please use 
+  '-debug_acc+all+dmptf -debug_region+cell+encrypt' instead.
+
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_all +notimingcheck \
++nospecify +vcs+flush+all -o simv -l compile.log -f filelist.f -P /tools/synopsys/verdi/Verdi3_L-2016.06-1/share/PLI/VCS/linux64/novas.tab \
+/tools/synopsys/verdi/Verdi3_L-2016.06-1/share/PLI/VCS/linux64/pli.a -R +fsdb+autoflush \
+-l run.log
+
+Error-[P1ARGS-CANTOPN-F] Cannot open file
+  Unable to open 'filelist.f' due to 'No such file or directory'.
+  Please fix the reason mentioned above and continue.
+
+CPU time: .114 seconds to compile

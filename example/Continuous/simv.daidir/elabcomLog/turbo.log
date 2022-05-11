@@ -1,0 +1,5 @@
+Command Line: /opt/eda/snps/vcs/R-2020.12-SP1/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -topfile simv.daidir/.elabcomTopFile -pkgfile simv.daidir/.elabcomPkgFile -ssz -ssv -ssy -Lf work +disable_message+C00388+C00389
+uname(Linux eda12 3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018 x86_64)
+[INFO] error/warning message 'C00388' has been suppressed.
+[INFO] error/warning message 'C00389' has been suppressed.
+au time 0.114703 0.040176 0.052205 delta 94310400 94310400 total 204009472 204009472

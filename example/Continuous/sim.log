@@ -1,0 +1,17 @@
+Command: /home/yangsiqi/coding/example/try_fifo/./simv +fsdbfile+top_tb.fsdb -cm line+cond+tgl+fsm -l sim.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Apr 29 18:16 2022
+Interrupt at time 1337630983820
+
+ext
+ invalid command name "ext"
+exit
+ 
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1337630983820
+CPU Time:  17491.950 seconds;       Data structure size:   0.0Mb
+Fri Apr 29 23:08:56 2022

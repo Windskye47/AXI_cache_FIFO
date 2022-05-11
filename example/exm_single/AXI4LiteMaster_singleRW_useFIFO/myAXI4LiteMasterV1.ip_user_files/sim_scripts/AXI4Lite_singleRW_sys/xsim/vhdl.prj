@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_axi_bram_ctrl_0_1/sim/AXI4Lite_singleRW_sys_axi_bram_ctrl_0_1.vhd" \
+"../../../bd/AXI4Lite_singleRW_sys/ip/AXI4Lite_singleRW_sys_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_48f7_psr_aclk_0.vhd" \
+
+nosort

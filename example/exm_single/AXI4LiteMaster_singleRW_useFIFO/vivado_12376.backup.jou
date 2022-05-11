@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Dec 11 13:49:02 2021
+# Process ID: 12376
+# Current directory: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14824 F:\Onedrive\VivadoPrj\AXI4LiteMaster_singleRW_useFIFO\myAXI4LiteMasterV1.xpr
+# Log file: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/vivado.log
+# Journal file: F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO\vivado.jou
+# Running On: Dakang, OS: Windows, CPU Frequency: 3893 MHz, CPU Physical cores: 16, Host memory: 34301 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/AXI4Lite_singleRW_tb_behav.wcfg
+source AXI4Lite_singleRW_tb.tcl
+run all
+close_sim
+open_bd_design {F:/Onedrive/VivadoPrj/AXI4LiteMaster_singleRW_useFIFO/myAXI4LiteMasterV1.srcs/sources_1/bd/AXI4Lite_singleRW_sys/AXI4Lite_singleRW_sys.bd}

@@ -1,0 +1,49 @@
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+Command: vcs -full64 -debug_access -f run.f -kdb -debug_access+all -lca -debug_pp \
+-P /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/novas.tab /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a \
++define+DUMPFSDB -cm line+cond+tgl+fsm -l comp.log
+                         Chronologic VCS (TM)
+       Version R-2020.12-SP1_Full64 -- Fri Apr 29 18:09:37 2022
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Parsing design file '/home/lixianglong/xor/tb.v'
+Parsing design file '/home/lixianglong/xor/xor.v'
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 1 ns
+VCS Coverage Metrics Release R-2020.12-SP1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module testbench
+make[1]: Entering directory `/home/yangsiqi/coding/example/xor/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib -L/opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib \
+-Wl,-rpath-link=./   objs/amcQw_d.o   _312567_archive_1.so  SIM_l.o       rmapats_mop.o \
+rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lnuma -lvirsim \
+-lerrorinf -lsnpsmalloc -lvfs /opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -lreader_common /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/libBA.a \
+-luclinative /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /opt/eda/snps/vcs/R-2020.12-SP1/linux64/lib/vcs_save_restore_new.o \
+/opt/eda/snps/verdi/P-2019.06-SP1-1/share/PLI/VCS/LINUX64/pli.a -ldl -lm  -lc -lpthread \
+-ldl 
+../simv up to date
+make[1]: Leaving directory `/home/yangsiqi/coding/example/xor/csrc'
+CPU time: .544 seconds to compile + .228 seconds to elab + .322 seconds to link
+Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)
